@@ -55,14 +55,12 @@ public class Student extends People{
         System.out.print("\nCurrent score in PPE: "+getScorePPE()+" Enter new score: ");
         setScorePPE(scan.nextDouble());
         System.out.println("Score changed. New score: "+getScorePPE());
-        scan.close();
     }
     public void examinePIK() {
         Scanner scan = new Scanner(System.in);
         System.out.print("\nCurrent score in PIK: "+getScorePIK()+" Enter new score: ");
         setScorePIK(scan.nextDouble());
         System.out.println("Score changed. New score: "+getScorePIK());
-        scan.close();
     }
 
     public void examineTE() {
@@ -70,6 +68,5 @@ public class Student extends People{
         System.out.print("Current score in TE: "+getScoreTE()+" Enter new score: ");
         setScoreTE(scan.nextDouble());
         System.out.println("Score changed. New score: "+getScoreTE());
-        scan.close();
     }
 }
